@@ -1,0 +1,271 @@
+/*
+//////////////////////////////////////////////////////////
+//                                                      //
+//  Remote Work Monitoring System                       //
+//  Author     : P.Eswar                                //
+//  Dept       : IoT                                    //
+//  URL        : www.efftronics.com                     //
+//  Version    : v2.0                                   //
+//  Copyrights : ©2016 efftronics Systems Pvt. Ltd      //
+//////////////////////////////////////////////////////////
+*/
+
+#header {
+  background: url(../img/bg.jpg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  color: white;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 0;
+  margin-top: auto;
+  border-bottom: 1px solid;
+}
+h3 {
+  font-family: monospace;
+  margin-top: 0;
+}
+#user {
+  text-align: right;
+}
+h4>a {
+  color: white;
+}
+.PagenavBtnCol {
+  text-align: center;
+  margin-bottom: 1%;
+  margin-top: -2%;
+}
+div>ul.nav-tabs {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #00bcd4;
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-tabs>li {
+  display: table-cell;
+  width: 20%;
+  padding-right: 1px;
+  height: auto;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.nav-tabs>li>a {
+  color: #555;
+}
+
+.nav-tabs>li.active>a
+  {
+    background-color: #00bcd4 !important;
+    border-radius: 0px !important;
+    color: white !important;
+  }
+
+   .nav-tabs>li.active>a:focus {
+  background-color: #00bcd4 !important;
+  border-radius: 0px !important;
+  color: white !important;
+}
+
+.nav-tabs>li.active::before {
+content: "";
+position: absolute;
+bottom: -15px;
+left: 50%;
+border-width: 15px 15px 0;
+border-style: solid;
+border-color: #00bcd4 transparent;
+display: block;
+width: 0;
+}
+#adminPageNavBtn {
+  margin-right: -6px;
+}
+.button {
+    background-color: #03a9f4;
+    padding: 8px 30px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+}
+.activePage {
+  background-color:#662dcc;
+  color: white ;
+  border: 0.004em solid #662dcc;
+}
+.inActivePage {
+  background-color:white ;
+  color: #662dcc;
+  border: 0.004em solid #662dcc;
+}
+.btnC{
+    background-color: #e4e4e4;
+    color: black;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+    }
+.btnDisable{
+  background-color: #dadada;
+  color: grey;
+  cursor: not-allowed;
+}
+.btnEnable {
+  background-color: #4CAF50;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+}
+.tabBtn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:#ffffff;
+  color: #03a9f4;
+  /*border:1px solid #03a9f4;*/
+}
+/*sumo select css*/
+p.CaptionCont.SelectBox.search {
+    border:none;
+    border-bottom: 1px solid #59b359;
+    border-radius:0px;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 3px 10px 0 rgba(0,0,0,.19);*/
+}
+#stationsTab,#deptTab,#usersTab {
+  text-align: center;
+  padding: 4% 0;
+}
+#stationsTab>div {
+  padding: 1% 0;
+}
+.error {
+  color: red;
+  display: none;
+}
+.modal {
+  top: 25%;
+}
+.modal-content {
+    border-radius: 0;
+}
+.modal-header {
+    background-color: #03a9f4;
+    color: #fff;
+    text-align: center;
+}
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid grey;
+  border-radius:0px;
+}
+vaadin-combo-box {
+    width: auto;
+  }
+  .paper-input-container-0 .unfocused-line.paper-input-container {
+      border-bottom: 1px solid #662dcc;
+    }
+
+/*Date Picker */
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid #662dcc;
+    border-radius: 0px;
+}
+.input-group-addon {
+    border: none;
+    border-bottom: 1px solid #662dcc;
+    border-radius: 0px;
+}
+#getRprtBtn{
+  background-color: #8BC34A;
+  padding: 6px 39px;
+  margin: 27px 2px;
+  box-shadow: 0 0px 16px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.19);
+}
+#getRprtBtn2{
+  background-color: #8BC34A;
+  padding: 6px 15px;
+  margin: 27px 2px;
+  box-shadow: 0 0px 16px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.19);
+}
+.filterRow {
+  box-shadow: 0 0px 16px 0 rgba(0,0,0,0.2), 0 6px 15px 0 rgba(0,0,0,0.19);
+  padding: 0.5em 0.3em;
+}
+.detailsTable tbody>tr>td, .detailsTable thead>tr>th{
+    vertical-align: middle;
+    text-align:center;
+}
+.detailsTable thead>tr {
+  background-color: #662dcc;
+  color: white;
+  font-family: monospace;
+  box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+.detailsTable thead>tr>th, .detailsTable tbody>tr>td {
+  border-right: 1px solid white;
+}
+.detailsTable tr>th:nth-child(1), .detailsTable tr>td:nth-child(1) {
+  display: none;
+}
+.detailsTable tbody>tr:hover {
+  background-color: rgba(102,45,204,0.2);
+  cursor: pointer;
+}
+#tableTilte {
+  padding: 15px 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+.close {
+    color: #fbfbfb;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1;
+}
+#workDetailsModal {
+  top:5%;
+}
+.inner-addon {
+  position: relative;
+}
+/* style glyph */
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+}
+.left-addon .fa  {
+  left:  0px;
+  background-color: #f3f3f3;
+}
+.left-addon input  { padding-left:  40px; }
+.left-addon input.form-control[readonly] {
+  background-color: #fff;
+  border: none;
+}
+.carousel-inner > .item > img,  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+   #myCarousel {
+      width: 100%;
+      margin: auto;
+  }
+@media only screen and (min-width: 768px) {
+.carousel-inner > .item > img,  .carousel-inner > .item > a > img {
+      width: 60%;
+      margin: auto;
+  }
+  #myCarousel {
+      width: 78%;
+      margin: auto;
+	  background-color:black;
+  }
+  }

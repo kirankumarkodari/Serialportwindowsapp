@@ -1,0 +1,166 @@
+.header-content
+{
+	border: none;
+	border-bottom: 5px solid gray;
+	
+}
+html,body
+{
+	height:100%;
+}
+.filter_row
+{
+  padding-top: 10px;	
+}
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4%;  /* change this value to required width */
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, 0.93);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+.carousel .item img {
+  min-height: 40%;
+  max-height: 40%;
+  min-width: auto;
+}
+.carousal_row
+{
+ box-shadow: 0px 3px 10px #888888;
+}
+.carousel-indicators li
+{
+    visibility:hidden;
+  
+}
+.table_container
+{
+	
+	
+}
+.image_table  
+{
+   //max-height:300px;
+ 
+}
+#table_div
+{
+    max-height:300px;
+
+}
+.table_row
+{
+ 
+}
+.image_table tbody>tr>td { /* for image thumb nails */
+  text-align:center;
+  border-bottom: 0.7px solid gray;
+  border-right: 0.7px solid rgba(102,45,204,0.1);
+  width:12.5%;
+  min-width:12.5%;
+  max-width:12.5%;
+}
+.image_table tbody>tr>td:hover {
+  background-color: rgba(102,45,204,0.1);
+  cursor: pointer;
+}
+.td_active{
+    background-color: rgba(102,45,204,0.4);
+    cursor: pointer;
+}
+.image_table tbody>tr>td:active {
+  background-color: rgba(102,45,204,0.2);
+  cursor: pointer;
+}
+.td_image
+{
+	
+	max-height:100px;
+}
+#tableTitle
+{
+  padding: 0px;
+  padding-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+    #table_div {
+        max-height: 200px;
+        overflow-y: scroll;
+    }
+
+    .td_image {
+        min-width: 70px;
+        max-height: 70px;
+    }
+
+    .CamSel_div
+    {
+        padding-left:30%;
+        z-index:100;
+    }
+}
+
+    #myCarousel .carousel-inner div img {
+        cursor:pointer;
+        cursor:hand;
+    }
+    
+
+/*styles for img_modal*/
+
+
+
+#imgModal {
+  text-align: center;
+}
+
+
+  #imgModal:before {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width:auto;
+  }
+
+#imgModal
+{
+    top:20%;
+}
+
+#imgModal .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* Displays to select  drop down for selectinig Camera  */
+
+
+
+select,
+.dropdown{
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.dropdown{
+	margin-right: 8px;
+}
+ul{
+    padding-left:0px;
+}
+.Camera_title
+{
+    font-weight:bold;
+    font-size:14px;
+    margin-bottom:8px;
+}
+/* End of Camera Seletcion Styles*/

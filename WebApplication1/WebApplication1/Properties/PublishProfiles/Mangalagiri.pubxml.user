@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\SIte</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>12/01/2017 17:22:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>12/01/2017 17:22:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>12/01/2017 17:22:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>12/01/2017 17:22:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>12/01/2017 17:22:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>12/01/2017 17:22:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>12/01/2017 17:22:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>12/01/2017 17:22:53</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>12/01/2017 17:22:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>12/01/2017 17:22:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>12/01/2017 17:22:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>12/01/2017 17:22:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>12/01/2017 17:22:55</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.dll">
+      <publishTime>12/01/2017 18:12:56</publishTime>
+    </File>
+    <File Include="Css/bootstrap-datetimepicker.css">
+      <publishTime>12/01/2017 18:10:09</publishTime>
+    </File>
+    <File Include="Css/bootstrap.min.css">
+      <publishTime>12/01/2017 18:10:09</publishTime>
+    </File>
+    <File Include="Css/easydropdown.css">
+      <publishTime>12/01/2017 18:10:09</publishTime>
+    </File>
+    <File Include="Css/rwms.css">
+      <publishTime>12/01/2017 18:10:09</publishTime>
+    </File>
+    <File Include="Css/wms.css">
+      <publishTime>12/01/2017 18:10:09</publishTime>
+    </File>
+    <File Include="Images/fashion-190x126.png">
+      <publishTime>12/01/2017 18:10:59</publishTime>
+    </File>
+    <File Include="Images/fashion-75x75.png">
+      <publishTime>12/01/2017 18:10:59</publishTime>
+    </File>
+    <File Include="Images/images.jpg">
+      <publishTime>12/01/2017 18:10:59</publishTime>
+    </File>
+    <File Include="Js/bootstrap-datetimepicker.min.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/bootstrap.min.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/jquery.easydropdown.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/jquery.lazy.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/jquery.lazy.min.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/jquery.lazy.plugins.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/jquery.lazy.plugins.min.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/jquery.min.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/jquery.sumoselect.min.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/jse7tmw.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/lazyload.min.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/lib.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/moment.min.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/New Text Document.txt">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/rwms.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="Js/wms.js">
+      <publishTime>12/01/2017 18:10:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/01/2017 17:22:58</publishTime>
+    </File>
+    <File Include="topfx.html">
+      <publishTime>12/01/2017 18:09:47</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/01/2017 18:12:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

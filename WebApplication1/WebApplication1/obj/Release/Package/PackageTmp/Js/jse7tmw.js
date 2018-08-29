@@ -1,0 +1,1 @@
+!function(){var a="legacy-jse7tmw";if(!document.getElementById(a)){var b=document.getElementsByTagName("head")[0],c=document.createElement("link");c.id=a,c.rel="stylesheet",c.type="text/css",c.href="https://typeface.nyt.com/css/jse7tmw.css",c.media="all",b.appendChild(c)}document.documentElement.className=document.documentElement.className.replace("wf-loading","wf-active")}();
